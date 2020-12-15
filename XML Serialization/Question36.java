@@ -26,7 +26,6 @@ public class Question36 extends Words{
       String line = br.readLine();
 
       while(line != null){
-        int i = 0;  //incrementor
         String[] tokenize = line.split(" ");
         linkedlist.add(tokenize[i]);
         linkedlist.add(tokenize[i+1]);
