@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="9.0.4" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <string>Please</string>
+  </void>
+  <void method="add">
+   <string>ignore</string>
+  </void>
+  <void method="add">
+   <string>request.</string>
+  </void>
+  <void method="add">
+   <string>this</string>
+  </void>
+ </object>
+</java>
