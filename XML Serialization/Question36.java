@@ -16,6 +16,8 @@ import java.util.LinkedList;
 import java.util.Collections;
 import java.beans.XMLEncoder;
 
+//this is a hard coded example of XML serialization that takes in 4 words from a text file
+
 public class Question36 extends Words{
   public static void main(String[] args){
     List<String> list = new ArrayList<>();  //list to store read-in values
@@ -26,6 +28,7 @@ public class Question36 extends Words{
       String line = br.readLine();
 
       while(line != null){
+        int i = 0;
         String[] tokenize = line.split(" ");
         linkedlist.add(tokenize[i]);
         linkedlist.add(tokenize[i+1]);
